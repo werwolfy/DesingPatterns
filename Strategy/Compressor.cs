@@ -6,10 +6,10 @@ public class Compressor
     {
         CompressionStrategy = strategy;
     }
-    public ICompressionStrategy? CompressionStrategy { get; set; }
+    public ICompressionStrategy CompressionStrategy { get; set; }
 
     public void Compress()
     {
-        CompressionStrategy?.Compress();
+        CompressionStrategy.Compress();
     }
 }

@@ -7,7 +7,7 @@ using Strategy.CompressionMethods;
 
 Compressor compressor = new(new SevenZipStrategy());
 compressor.Compress();
-compressor = new(new ZipStrategy());
+compressor.CompressionStrategy = new ZipStrategy();
 compressor.Compress();
-compressor = new(new WinRarStrategy());
+compressor.CompressionStrategy = new WinRarStrategy();
 compressor.Compress();
