@@ -7,7 +7,8 @@ public abstract class AIngredients : IBurgerIngredients
 {
     public IBurgerIngredients? Ingredients { get; set; }
     public double Price { get; set; }
-    public double GetIngredientPrice()
+    
+    public virtual double GetIngredientPrice()
     {
         throw new NotImplementedException();
     }
