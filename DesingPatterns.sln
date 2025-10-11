@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{A066F144-FAC2-4F15-850B-8E015DE86081}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{35CD3413-A4A9-4909-A9B2-3B1B13BAA95D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A066F144-FAC2-4F15-850B-8E015DE86081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A066F144-FAC2-4F15-850B-8E015DE86081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A066F144-FAC2-4F15-850B-8E015DE86081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CD3413-A4A9-4909-A9B2-3B1B13BAA95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CD3413-A4A9-4909-A9B2-3B1B13BAA95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CD3413-A4A9-4909-A9B2-3B1B13BAA95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CD3413-A4A9-4909-A9B2-3B1B13BAA95D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
