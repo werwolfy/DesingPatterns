@@ -1,3 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using State;
+using State.PlayerStates;
 
-Console.WriteLine("Hello, World!");
+Player playerOne = new Player();
+playerOne.State = new Walking(playerOne);
+playerOne.State.Shoot();
+playerOne.Run();
+playerOne.Run();
+playerOne.Shoot();
+playerOne.Jump();
+playerOne.Jump();
+playerOne.Walk();
+playerOne.Jump();
+playerOne.Run();
+playerOne.Jump();
