@@ -4,8 +4,8 @@ using Decorator.Ingredients;
 // Das ist der Client
 
 Hamburger hamburger = new();
-Console.WriteLine(hamburger.Price);
+Console.WriteLine(hamburger.GetIngredientPrice()); // => 10€
 Salat salat = new Salat(hamburger);
 Cucumbers cucumbers1 = new Cucumbers(salat);
 Cucumbers cucumbers2 = new Cucumbers(cucumbers1);
-Console.WriteLine(cucumbers2.GetIngredientPrice());
+Console.WriteLine(cucumbers2.GetIngredientPrice()); // => 10,45€

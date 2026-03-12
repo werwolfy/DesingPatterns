@@ -11,6 +11,6 @@ public class Cheese : AIngredients
     }
     public override double GetIngredientPrice()
     {
-        return  Ingredients.GetIngredientPrice() + Price;
+        return  Ingredients!.GetIngredientPrice() + Price;
     }
 }
