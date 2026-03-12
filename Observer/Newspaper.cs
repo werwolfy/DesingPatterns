@@ -4,7 +4,7 @@
 
 public class Newspaper
 {
-    public List<ISubscriber> Subscribers { get; set; } = new();
+    public List<ISubscriber> Subscribers { get; } = new();
 
     public void AddSubscriber(ISubscriber subscriber)
     {
