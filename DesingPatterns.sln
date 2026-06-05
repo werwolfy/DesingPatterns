@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{C0675A65-78D2-4964-9324-1B85F0E5A211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{8287F81C-952A-4860-B273-D1793F64A51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{51D46630-ADFF-427A-8C22-5036772F8EC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{C0675A65-78D2-4964-9324-1B85F0E5A211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0675A65-78D2-4964-9324-1B85F0E5A211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0675A65-78D2-4964-9324-1B85F0E5A211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8287F81C-952A-4860-B273-D1793F64A51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8287F81C-952A-4860-B273-D1793F64A51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8287F81C-952A-4860-B273-D1793F64A51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8287F81C-952A-4860-B273-D1793F64A51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D46630-ADFF-427A-8C22-5036772F8EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D46630-ADFF-427A-8C22-5036772F8EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D46630-ADFF-427A-8C22-5036772F8EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D46630-ADFF-427A-8C22-5036772F8EC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
